@@ -1,0 +1,177 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(238, 159, 159)
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* Menú (Cabecera) */
+header {
+    background-color: #940505;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 0;
+}
+
+
+/* Presentación inicial con foto (Sección 1) */
+#presentacion {
+    text-align: center;
+    padding: 20px;
+}
+
+.foto-presentacion {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+#presentacion p {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Sobre Mi (Sección 2) */
+#sobre-mi {
+    background-color: #facbcb;
+}
+
+#sobre-mi p {
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Conocimientos (Sección 3) */
+#conocimientos ul {   
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+    min-width: 250px;
+}
+
+#conocimientos ul li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #333;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Proyectos (Sección 4)*/
+#proyectos {
+    background-color: #facbcb;
+}
+
+#proyectos .proyecto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(238, 159, 159);
+}
+
+/* Pie */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+footer table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+footer table td {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 2px solid #979797;
+}
+
+footer table td:last-child {
+    border-right: none;
+}
+
+footer table td a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Formulario de Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.elementos-form {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0px 5px 0px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Botón */
+button {
+    padding: 10px;
+    background-color: #525252;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
